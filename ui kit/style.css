@@ -1,0 +1,24 @@
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 145px;
+  margin-bottom: 145px;
+}
+
+.rectangle {
+  width: 70px;
+  height: 70px;
+
+}
+
+.dark-shade-100 {
+  background: #1F2041;
+}
