@@ -36,10 +36,23 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 143px;
+  margin-left: 145px;
   margin-top: 136.5px;
   margin-bottom: 145px;
 }
+
+.right-container {
+  margin-right: 10%;
+  margin-left: 22.6%;
+}
+
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  word-wrap: wrap;
+}
+
 
 .rectangle {
   width: 70px;
@@ -98,4 +111,29 @@
 .break {
   flex-basis: 100%;
   height: 0;
+}
+
+h1 {
+  font-family: 'MontserratBold', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1F2041;
+}
+
+.h1-title {
+  font-family: 'MontserratRegular', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(31, 32, 65, 0.25);
+  width: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.left-indent-38 {
+  margin-left: 38px;
 }
