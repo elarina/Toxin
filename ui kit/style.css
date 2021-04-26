@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src:  url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.svg") format("svg"),
+        url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.ttf") format("ttf"),
+        url("../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src:  url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.svg") format("svg"),
+        url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.ttf") format("ttf"),
+        url("../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "QuicksandRegular";
+  src:  url("../fonts/Quicksand/Quicksand-Regular/Quicksand-Regular.svg") format("svg"),
+        url("../fonts/Quicksand/Quicksand-Regular/Quicksand-Regular.ttf") format("ttf"),
+        url("../fonts/Quicksand/Quicksand-Regular/Quicksand-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
 .top-container {
   display: flex;
   flex-direction: row;
@@ -48,8 +76,23 @@
   background-color: #6FCF97;
 }
 
-.color-description {
+.color-description-block {
   margin-left: 40px;
+  margin-top: 8.5px;
+}
+
+.color-description {
+    font-family: 'MontserratBold', sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.color-value {
+   font-family: 'MontserratRegular', sans-serif;
+   font-size: 19px;
+   line-height: 28px;
 }
 
 .break {
