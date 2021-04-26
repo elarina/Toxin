@@ -7,18 +7,48 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 150px;
-  margin-top: 145px;
+  justify-content: flex-start;
+  margin-left: 143px;
+  margin-top: 136.5px;
   margin-bottom: 145px;
 }
 
 .rectangle {
   width: 70px;
   height: 70px;
-
+  margin-bottom: 20px;
+  border-radius: 6px;
 }
 
 .dark-shade-100 {
   background: #1F2041;
+}
+
+.dark-shade-75 {
+  background: rgba(31, 32, 65, 0.75);
+}
+
+.dark-shade-50 {
+  background: rgba(31, 32, 65, 0.5);
+}
+
+.dark-shade-25 {
+  background: rgba(31, 32, 65, 0.25);
+}
+
+.dark-shade-5 {
+  background: rgba(31, 32, 65, 0.05);
+}
+
+.purple {
+  background-color: #BC9CFF;
+}
+
+.green {
+  background-color: #6FCF97;
+}
+
+.color-description {
+  margin-left: 40px;
+  margin-right: 65%;
 }
