@@ -25,6 +25,12 @@
   font-weight: normal;
 }
 
+body {
+  font-family: 'MontserratRegular', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
 
 .top-container {
   display: flex;
@@ -160,6 +166,11 @@ h3 {
   font-family: 'MontserratRegular', sans-serif;
   font-size: 12px;
   line-height: 15px;
+  color: rgba(31, 32, 65, 0.25);
+  text-align: right;
+}
+
+.body-title {
   color: rgba(31, 32, 65, 0.25);
   text-align: right;
 }
