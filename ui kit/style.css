@@ -47,14 +47,6 @@ body {
   margin-bottom: 145px;
 }
 
-/*
-.right-container {
-  margin-right: 10%;
-  margin-left: 25.2%;
-  margin-bottom: 32%;
-}
-*/
-
 .right-container {
   margin-left: 255px;
   margin-right: 45px;
@@ -96,6 +88,7 @@ body {
 
 .rectangle {
   width: 70px;
+  min-width: 70px;
   height: 70px;
   margin-bottom: 20px;
   border-radius: 6px;
