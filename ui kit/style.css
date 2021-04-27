@@ -44,7 +44,7 @@
 .right-container {
   margin-right: 10%;
   margin-left: 22.6%;
-  margin-bottom: 28%;
+  margin-bottom: 31%;
 }
 
 
@@ -145,6 +145,23 @@ h2 {
   font-weight: normal;
   line-height: 23px;
   color: rgba(31, 32, 65, 0.25);
+  text-align: right;
+}
+
+h3 {
+  font-family: 'MontserratBold', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+.h3-title {
+  font-family: 'MontserratRegular', sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(31, 32, 65, 0.25);
+  text-align: right;
 }
 
 .inline {
