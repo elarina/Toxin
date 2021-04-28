@@ -127,7 +127,7 @@ body {
   margin-top: 8.5px;
 }
 
-.color-description {
+.color-description-block__description {
     font-family: 'MontserratBold', sans-serif;
     font-size: 19px;
     line-height: 28px;
@@ -135,7 +135,7 @@ body {
     font-weight: bold;
 }
 
-.color-value {
+.color-description-block__value {
    font-family: 'MontserratRegular', sans-serif;
    font-size: 19px;
    line-height: 28px;
