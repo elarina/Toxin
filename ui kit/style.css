@@ -94,31 +94,31 @@ body {
   border-radius: 6px;
 }
 
-.dark-shade-100 {
+.color-dark-shade-100 {
   background: #1F2041;
 }
 
-.dark-shade-75 {
+.color-dark-shade-75 {
   background: rgba(31, 32, 65, 0.75);
 }
 
-.dark-shade-50 {
+.color-dark-shade-50 {
   background: rgba(31, 32, 65, 0.5);
 }
 
-.dark-shade-25 {
+.color-dark-shade-25 {
   background: rgba(31, 32, 65, 0.25);
 }
 
-.dark-shade-5 {
+.color-dark-shade-5 {
   background: rgba(31, 32, 65, 0.05);
 }
 
-.purple {
+.color-purple {
   background-color: #BC9CFF;
 }
 
-.green {
+.color-green {
   background-color: #6FCF97;
 }
 
