@@ -7,7 +7,7 @@ module.exports = {
     contentBase: './dist',
   },
   entry: {
-    'index': './ui-kit/src/index.pug',
+    'index': './src/ui-kit/index.pug',
   },
   output: {
     filename: './js/[name].js',
@@ -17,7 +17,7 @@ module.exports = {
     new HtmlWebpackPlugin({
     filename: 'index.html',
     chunks: ['index'],
-    template: './ui-kit/src/index.pug'
+    template: './src/ui-kit/index.pug'
     })
   ],
   module: {
