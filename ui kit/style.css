@@ -66,6 +66,10 @@ body {
   word-wrap: wrap;
 }
 
+.row__rectangle {
+  margin-bottom: 20px;
+}
+
 .h1-row {
   margin-top: 1px;
   margin-left: 5px;
@@ -90,7 +94,6 @@ body {
   width: 70px;
   min-width: 70px;
   height: 70px;
-  margin-bottom: 20px;
   border-radius: 6px;
 }
 
