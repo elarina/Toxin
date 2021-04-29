@@ -42,6 +42,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+.left-container {
   margin-left: 72px;
   margin-top: 136.5px;
   margin-bottom: 145px;
@@ -50,6 +53,7 @@ body {
 .right-container {
   margin-left: 255px;
   margin-right: 45px;
+  margin-top: 136.5px;
   height: 321px;
 }
 
@@ -178,19 +182,19 @@ body {
   text-align: right;
 }
 
-.h1-title {
+.header-title_title-size_h1 {
   font-size: 24px;
   line-height: 29px;
   width: 37px;
 }
 
-.h2-title {
+.header-title_title-size_h2 {
   font-size: 19px;
   line-height: 23px;
   width: 37px;
 }
 
-.h3-title {
+.header-title_title-size_h3 {
   font-size: 12px;
   width: 37px;
 }
