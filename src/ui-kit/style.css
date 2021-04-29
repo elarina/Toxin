@@ -73,25 +73,31 @@
   word-wrap: wrap;
 }
 
+.h-row {
+  display: inline-flex;
+  flex-direction: row;
+  word-wrap: wrap;
+}
+
 .row__rectangle {
   margin-bottom: 20px;
 }
 
-.h1-row {
+.page__h1-row {
   margin-top: 1px;
   margin-left: 5px;
 }
 
-.h2-row {
+.page__h2-row {
     margin-top: 10%;
     margin-right: 44px;
 }
 
-.h3-row {
+.page__h3-row {
   margin-top: 8%;
 }
 
-.body-row {
+.page__body-row {
   margin-top: 8%;
   margin-right: 25%;
 }
