@@ -1,18 +1,8 @@
+include ../row/row
+
 body(class='page')
   .top-container
     include ../logo/logo.pug
     div(class='container left-container')
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
-      .break
-      include ../row/row.pug
+      +row({color:"rectangle_color_dark-shade-100", description: "Dark Shade 100%", value: "#1F2041"})
       .break

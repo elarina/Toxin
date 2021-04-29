@@ -1,0 +1,7 @@
+mixin color-description-block(options)
+  -
+    var description = options.description
+    var value = options.value
+  div(class = 'color-description-block row__color-description-block')
+    span(class = 'color-description-block__description')= description
+    span(class = 'color-description-block__value')= value

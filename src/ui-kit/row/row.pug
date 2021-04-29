@@ -1,2 +1,10 @@
-.row
-  
+include ../color-description-block/color-description-block
+
+mixin row(options)
+  -
+    var colorClassName = options.color
+    var description= options.description
+    var value = options.value
+  .row
+    div(class = 'rectangle' class = colorClassName class = 'row__rectangle')
+      +color-description-block({description: description, value: value})
