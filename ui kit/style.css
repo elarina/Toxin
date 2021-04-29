@@ -94,31 +94,31 @@ body {
   border-radius: 6px;
 }
 
-.rectangle_color-dark-shade-100 {
+.rectangle_color_dark-shade-100 {
   background: #1F2041;
 }
 
-.rectangle_color-dark-shade-75 {
+.rectangle_color_dark-shade-75 {
   background: rgba(31, 32, 65, 0.75);
 }
 
-.rectangle_color-dark-shade-50 {
+.rectangle_color_dark-shade-50 {
   background: rgba(31, 32, 65, 0.5);
 }
 
-.rectangle_color-dark-shade-25 {
+.rectangle_color_dark-shade-25 {
   background: rgba(31, 32, 65, 0.25);
 }
 
-.rectangle_color-dark-shade-5 {
+.rectangle_color_dark-shade-5 {
   background: rgba(31, 32, 65, 0.05);
 }
 
-.rectangle_color-purple {
+.rectangle_color_purple {
   background-color: #BC9CFF;
 }
 
-.rectangle_color-green {
+.rectangle_color_green {
   background-color: #6FCF97;
 }
 
