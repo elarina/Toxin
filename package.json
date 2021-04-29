@@ -1,0 +1,31 @@
+{
+  "name": "Toxin",
+  "version": "1.0.0",
+  "description": "2nd task of educational program",
+  "main": "index.js",
+  "scripts": {
+    "build-and-beautify": "webpack --mode production && html dist/*.html --indent-size 2 -n -p",
+    "beautify": "html dist/*.html --indent-size 2",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elarina/Toxin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elarina/Toxin/issues"
+  },
+  "homepage": "https://github.com/elarina/Toxin#readme",
+  "devDependencies": {
+    "html-cli": "^1.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
