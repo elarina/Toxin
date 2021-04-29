@@ -7,17 +7,17 @@ module.exports = {
     contentBase: './dist',
   },
   entry: {
-    'index': './src/ui-kit/index.pug',
+    'index': './src/ui-kit/ui-kit.pug',
   },
   output: {
     filename: './js/[name].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/ui-kit'),
   },
   plugins: [
     new HtmlWebpackPlugin({
-    filename: 'index.html',
-    chunks: ['index'],
-    template: './src/ui-kit/index.pug'
+    filename: 'ui-kit.html',
+    chunks: ['ui-kit'],
+    template: './src/ui-kit/ui-kit.pug'
     })
   ],
   module: {
