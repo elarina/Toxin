@@ -1,0 +1,12 @@
+@import "../consts";
+
+.header {
+  font-family: 'MontserratBold', sans-serif;
+  font-weight: bold;
+  color: $color-dark100;
+}
+
+@import "./_inline/header_inline";
+@import "./_size_h1/header_size_h1";
+@import "./_size_h2/header_size_h2";
+@import "./_size_h3/header_size_h3";
