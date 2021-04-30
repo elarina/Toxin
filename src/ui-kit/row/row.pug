@@ -1,4 +1,5 @@
 include ../color-description-block/color-description-block
+include ../rectangle/rectangle
 
 mixin row(options)
   -
@@ -6,5 +7,5 @@ mixin row(options)
     var description= options.description
     var value = options.value
   .row
-    div(class = 'rectangle' class = colorClassName class = 'row__rectangle')
+    +rectangle(colorClassName)
     +color-description-block({description: description, value: value})
