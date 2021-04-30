@@ -1,0 +1,12 @@
+@import "../consts";
+
+.header-title {
+  font-family: 'MontserratRegular', sans-serif;
+  font-weight: normal;
+  color: $color-dark25;
+  text-align: right;
+}
+
+@import "./_title-size_h1/header-title_title-size_h1";
+@import "./_title-size_h2/header-title_title-size_h2";
+@import "./_title-size_h3/header-title_title-size_h3";
