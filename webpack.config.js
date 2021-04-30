@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: "development",
@@ -9,6 +10,7 @@ module.exports = {
   entry: {
     'index': './src/ui-kit/ui-kit.pug',
   },
+  entry: ['./src/ui-kit/style.scss'],
   output: {
     filename: './js/[name].js',
     path: path.resolve(__dirname, 'dist/ui-kit'),
@@ -18,6 +20,12 @@ module.exports = {
     filename: 'ui-kit.html',
     chunks: ['ui-kit'],
     template: './src/ui-kit/ui-kit.pug'
+    }),
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: "style.css",
+      chunkFilename: "[id].css",
     })
   ],
   module: {
@@ -33,6 +41,14 @@ module.exports = {
         use: {
           loader: 'html-loader',
         },
+      },
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+        ],
       },
     ],
   }
