@@ -4,9 +4,10 @@
   "description": "2nd task of educational program",
   "main": "index.js",
   "scripts": {
-    "build-and-beautify": "webpack --mode production && html dist/*.html && html dist/ui-kit/*.html --indent-size 2 -n -p",
-    "beautify": "html dist/*.html --indent-size 2",
-    "start": "webpack serve --open"
+    "build-and-beautify": "webpack --mode development && html dist/*.html && html dist/ui-kit/*.html --indent-size 2 -n -p",
+    "beautify": "html dist/*.html && html dist/ui-kit/*.html --indent-size 2",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
