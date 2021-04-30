@@ -30,6 +30,10 @@
   height: 0;
 }
 
+.left-indent-30 {
+  margin-left: 30px;
+}
+
 @import "./page/page";
 @import "./rectangle/rectangle";
 @import "./row/row";
@@ -37,3 +41,4 @@
 @import "./h-row/h-row";
 @import "./header/header";
 @import "./header-title/header-title";
+@import "./logo/logo";
