@@ -1,0 +1,8 @@
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  word-wrap: wrap;
+}
+
+@import "./__rectangle/row__rectangle";
+@import "./__color-description-block/row__color-description-block";
