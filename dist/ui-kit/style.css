@@ -1,1 +1,58 @@
-.rectangle_color_dark-shade-100{background:#1f2041}.rectangle_color_dark-shade-75{background:rgba(31,32,65,.75)}.rectangle_color_dark-shade-50{background:rgba(31,32,65,.5)}.rectangle_color_dark-shade-25{background:rgba(31,32,65,.25)}.rectangle_color_dark-shade-5{background:rgba(31,32,65,.05)}.rectangle_color_purple{background:#bc9cff}.rectangle_color_green{background:#6fcf97}
+.page {
+  font-family: "MontserratRegular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.page__body-row {
+  margin-top: 8%;
+  margin-right: 25%;
+}
+
+.page__h1-row {
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.page__h2-row {
+  margin-top: 10%;
+  margin-right: 44px;
+}
+
+.page__h3-row {
+  margin-top: 8%;
+}
+
+.page__logo {
+  margin-left: 22px;
+  margin-top: 24px;
+}
+
+.rectangle_color_dark-shade-100 {
+  background: #1F2041;
+}
+
+.rectangle_color_dark-shade-75 {
+  background: rgba(31, 32, 65, 0.75);
+}
+
+.rectangle_color_dark-shade-50 {
+  background: rgba(31, 32, 65, 0.5);
+}
+
+.rectangle_color_dark-shade-25 {
+  background: rgba(31, 32, 65, 0.25);
+}
+
+.rectangle_color_dark-shade-5 {
+  background: rgba(31, 32, 65, 0.05);
+}
+
+.rectangle_color_purple {
+  background: #BC9CFF;
+}
+
+.rectangle_color_green {
+  background: #6FCF97;
+}

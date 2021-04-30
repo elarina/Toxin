@@ -6,3 +6,9 @@
   line-height: 24px;
   color: $color-dark75;
 }
+
+@import "./__body-row/page__body-row";
+@import "./__h1-row/page__h1-row";
+@import "./__h2-row/page__h2-row";
+@import "./__h3-row/page__h3-row";
+@import "./__logo/page__logo";
