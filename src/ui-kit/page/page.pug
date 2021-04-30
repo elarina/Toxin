@@ -1,4 +1,5 @@
 include ../row/row
+include ../h-row/h-row
 
 body(class='page')
   .top-container
@@ -18,3 +19,14 @@ body(class='page')
       .break
       +row({color:"rectangle_color_green", description: "Green", value: "#6FCF97"})
       .break
+    div(class='container right-container')
+      +h-row({element:"h1", isInline: true})
+
+      .break
+      +h-row({element:"h2", isInline: true})
+
+      .break
+      +h-row({element:"h3", isInline: true})
+
+      .break
+      +h-row({element:"body", isInline: false})

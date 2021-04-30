@@ -1,0 +1,51 @@
+mixin h-row(options)
+  -
+    var element = options.element
+    var isInline = options.isInline
+    var inlineClassName = isInline ? "header_inline" : ""
+  case element
+    when "h1"
+      -
+        var indent = "page__h1-row"
+        var headerText = "This one is the sub-section or widget title"
+        var headerTitleText = "H1"
+        var headerSize = "header_size_h1"
+        var headerTitleSize = "header-title_title-size_h1"
+        var hTag = "h1"
+        var isHeader = true;
+    when "h2"
+      -
+        var indent = "page__h2-row"
+        var headerText = "Next one is the item title inside widgets"
+        var headerTitleText = "H2"
+        var headerSize = "header_size_h2"
+        var headerTitleSize = "header-title_title-size_h2"
+        var hTag = "h2"
+        var isHeader = true;
+    when "h3"
+      -
+        var indent = "page__h3-row"
+        var headerText = "This is a label or CTA text"
+        var headerTitleText = "H3"
+        var headerSize = "header_size_h3"
+        var headerTitleSize = "header-title_title-size_h3"
+        var hTag = "h3"
+        var isHeader = true;
+    when "body"
+      -
+        var indent = "page__body-row"
+        var headerText = "This is the body text which is used for most of the design, like paragraphs, lists, etc."
+        var headerTitleText = "Body"
+        var headerSize = ""
+        var headerTitleSize = ""
+        var hTag = "span"
+        var isHeader = false;
+
+  -
+    var header = isHeader ? "header": ""
+    var titleClass = isHeader ? "header-title" : "body-title"
+
+  div(class='h-row' class=indent)
+    span(class=titleClass class=headerTitleSize)= headerTitleText
+    .left-indent-30
+      #{hTag}(class=header class=headerSize class=inlineClassName)= headerText
