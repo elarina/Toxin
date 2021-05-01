@@ -11,18 +11,18 @@ module.exports = {
   entry: ['./src/ui-kit/style.scss'],
   output: {
     filename: './js/[name].js',
-    path: path.resolve(__dirname, 'dist/ui-kit'),
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
-    filename: 'ui-kit.html',
+    filename: 'ui-kit/ui-kit.html',
     chunks: ['ui-kit'],
     template: './src/ui-kit/ui-kit.pug'
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: "style.css",
+      filename: "ui-kit/style.css",
       chunkFilename: "[id].css",
     })
   ],
@@ -59,7 +59,8 @@ module.exports = {
          options: {
            limit: 50000,
            mimetype: "application/font-woff",
-           name: "./assets/fonts/[name].[ext]", // Output below ./fonts
+           name: "assets/fonts/[name].[ext]", // Output below ./fonts
+           publicPath: "../", // Take the directory into account
          },
        },
       },
