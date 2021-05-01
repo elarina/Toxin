@@ -49,8 +49,8 @@ module.exports = {
         ],
       },
       {
-       test: /\.(png|svg|jpg|jpeg|gif)$/i,
-       type: 'asset/resource',
+       test: /\.(png|jpg|jpeg|gif)$/i,
+       type: 'asset',
       },
       {
        test: /\.(woff|woff2|eot|ttf|svg|otf)$/i,
@@ -58,7 +58,6 @@ module.exports = {
          loader: "url-loader",
          options: {
            limit: 50000,
-           mimetype: "application/font-woff",
            name: "assets/fonts/[name].[ext]", // Output below ./fonts
            publicPath: "../", // Take the directory into account
          },
