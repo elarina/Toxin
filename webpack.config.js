@@ -32,6 +32,9 @@ module.exports = {
         test: /\.pug$/i,
         use: {
           loader: 'pug-loader',
+          options: {
+            pretty: true
+          },
         },
       },
       {
@@ -49,13 +52,23 @@ module.exports = {
         ],
       },
       {
-       test: /\.(png|jpg|svg|jpeg|gif)$/i,
-       exclude: [
-        /Montserrat-Bold.svg$/,
-        /Montserrat-Regular.svg$/,
-        /Quicksand-Regular.svg$/,
-        ],
-       type: 'asset',
+        test: /\.(png|jpg|svg|jpeg|gif)$/,
+        exclude: [
+         /Montserrat-Bold.svg$/,
+         /Montserrat-Regular.svg$/,
+         /Quicksand-Regular.svg$/,
+         ],
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "assets/icons/",
+              publicPath: '../assets/icons/',
+              esModule: false,
+            }
+          }
+        ]
       },
       {
        test: /\.(woff|woff2|eot|ttf|svg|otf)$/i,
