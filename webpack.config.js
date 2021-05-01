@@ -7,9 +7,7 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
-  entry: {
-    'index': './src/ui-kit/ui-kit.pug',
-  },
+  entry: ['./src/ui-kit/ui-kit.pug'],
   entry: ['./src/ui-kit/style.scss'],
   output: {
     filename: './js/[name].js',
@@ -49,6 +47,23 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+      },
+      {
+       test: /\.(png|svg|jpg|jpeg|gif)$/i,
+       type: 'asset/resource',
+      },
+      {
+       test: /\.(woff|woff2|eot|ttf|otf)$/i,
+       type: 'asset/resource',
+       use: {
+         loader: "url-loader",
+         options: {
+           limit: 50000,
+           mimetype: "application/font-woff",
+           name: "./assets/fonts/[name].[ext]", // Output below ./fonts
+           publicPath: "../", // Take the directory into account
+         },
+       },
       },
     ],
   }
