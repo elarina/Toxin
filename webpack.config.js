@@ -54,14 +54,12 @@ module.exports = {
       },
       {
        test: /\.(woff|woff2|eot|ttf|svg|otf)$/i,
-       type: 'asset/resource',
        use: {
          loader: "url-loader",
          options: {
            limit: 50000,
            mimetype: "application/font-woff",
            name: "./assets/fonts/[name].[ext]", // Output below ./fonts
-           publicPath: "../", // Take the directory into account
          },
        },
       },
