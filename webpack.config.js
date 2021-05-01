@@ -49,7 +49,12 @@ module.exports = {
         ],
       },
       {
-       test: /\.(png|jpg|jpeg|gif)$/i,
+       test: /\.(png|jpg|svg|jpeg|gif)$/i,
+       exclude: [
+        /Montserrat-Bold.svg$/,
+        /Montserrat-Regular.svg$/,
+        /Quicksand-Regular.svg$/,
+        ],
        type: 'asset',
       },
       {
