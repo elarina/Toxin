@@ -54,9 +54,7 @@ module.exports = {
       {
         test: /\.(png|jpg|svg|jpeg|gif)$/,
         exclude: [
-         /Montserrat-Bold.svg$/,
-         /Montserrat-Regular.svg$/,
-         /Quicksand-Regular.svg$/,
+            path.resolve(__dirname, 'src/fonts'),
          ],
         use: [
           {
