@@ -54,7 +54,7 @@ module.exports = {
       {
         test: /\.(png|jpg|svg|jpeg|gif)$/,
         exclude: [
-            path.resolve(__dirname, 'src/fonts'),
+            path.resolve(__dirname, 'src/assets/fonts'),
          ],
         use: [
           {
