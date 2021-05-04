@@ -35,6 +35,10 @@
   margin-left: 30px;
 }
 
+.body-title {
+  color: $color-dark25;
+}
+
 @import "./page/page";
 @import "./rectangle/rectangle";
 @import "./row/row";
